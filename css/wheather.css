@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Glass Card */
+.container {
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+/* Weather Result */
+#weather-result {
+    margin-top: 20px;
+}
+
+.weather-card {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.25);
+}
+
+.weather-card img {
+    width: 60px;
+}
+
+.temp {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details {
+    font-size: 14px;
+    opacity: 0.9;
+}
